@@ -1,1 +1,45 @@
-/*  your css code here. If applicable */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-1{
+  display: flex;
+  gap: 5px;
+}
+
+.container-2{
+  display: flex;
+  gap: 5px;
+}
+
+img{
+  border: 2px solid black;
+  box-shadow: 1px 1px rgb(73, 72, 72);
+}
+
+.first-type-img{
+  height: 300px;
+  width: 200px;
+}
+
+.second-type-img{
+  height: 100px;
+  width: 200px;
+  position: relative;
+  top: 200px;
+}
