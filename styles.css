@@ -14,22 +14,23 @@ body{
 .container{
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .container-1{
   display: flex;
-  gap: 5px;
+  flex-wrap:wrap;
+  margin:10px;
 }
 
 .container-2{
   display: flex;
-  gap: 5px;
+  flex-wrap:wrap;
+  margin: 10px;
 }
 
 img{
-  border: 2px solid black;
-  box-shadow: 1px 1px rgb(73, 72, 72);
+  border: 3px solid black;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
 }
 
 .first-type-img{
