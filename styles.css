@@ -35,12 +35,12 @@ img{
 
 .first-type-img{
   height: 300px;
-  width: 200px;
+  max-width: 200px;
 }
 
 .second-type-img{
   height: 100px;
-  width: 200px;
+  max-width: 200px;
   position: relative;
   top: 200px;
 }
